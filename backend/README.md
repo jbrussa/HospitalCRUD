@@ -10,15 +10,15 @@ npm i cors
 npm install -g jest
 npm install --save-dev supertest
 
+Para ejecutar el backend:
 
-
+npm run dev, o en su defecto node index.js
 
 
 Para reiniciar la BD:
 
 borrar .base/hospital.db
 ejecutar node base-orm/sqlite-init
-
 
 
 Para ejecutar los test:
